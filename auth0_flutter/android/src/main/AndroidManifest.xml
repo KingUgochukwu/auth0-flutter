@@ -5,7 +5,9 @@
 
     <application>
         <activity
-            android:name="com.auth0.android.provider.RedirectActivity" android:exported="true">
+            android:name="com.auth0.android.provider.RedirectActivity" 
+            android:screenOrientation="portrait" 
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
